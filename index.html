@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title> TestRoomVR V0.0.1</title>
+    <title> TestRoomVR </title>
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 1050px; height: 590px; background: #231F20"></canvas>
-    <script src="Build/TestRoom.loader.js"></script>
+    <script src="Build/TestRoomWEB.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/TestRoom.data",
-        frameworkUrl: "Build/TestRoom.framework.js",
-        codeUrl: "Build/TestRoom.wasm",
+        dataUrl: "Build/TestRoomWEB.data",
+        frameworkUrl: "Build/TestRoomWEB.framework.js",
+        codeUrl: "Build/TestRoomWEB.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "TestRoomVR",
